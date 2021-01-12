@@ -1,5 +1,5 @@
 <?php
-require 'controller.php'
+require('controller.php');
 ?>
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
@@ -16,11 +16,11 @@ require 'controller.php'
         <ul>
             <?php foreach ($xml->page as $page)
             { ?>
-                <li><a href="?id=<?= $page['id'] - 1; ?>" target="_self"><?= $page->menu; ?></a></li>
+                <li><a href="?id=<?= ($page['id'] - 1) ?>" target="_self"><?= $page->menu; ?></a></li>
                 <?php } ?>
         </ul>
     </nav>
-    <?= $xml->page[(int)$_GET['id']]->content ?>
+    <?= $currentPage ?>
 </body>
 
 </html>
