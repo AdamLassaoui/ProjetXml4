@@ -17,5 +17,25 @@
         color: white;
 }
 .pageTitle {
+    color: #dc181c;
+    padding: 2%;
+    font-weight: 600;
+    text-align: center;
+}
+.warning {
+    font-size: 2em;
     color: red;
+    font-weight: 500;
+}
+.form {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    padding: 5%;
+}
+textarea{
+    resize: none;
+}
+p > iframe {
+    padding: 3%;
 }
