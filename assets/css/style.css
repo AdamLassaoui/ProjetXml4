@@ -70,3 +70,27 @@ textarea{
 p > iframe {
     padding: 3%;
 }
+h2 {
+    color: #797171;
+    padding: 2%;
+    font-weight: 500;
+    text-align: center;
+}
+h3 {
+    padding: 5%;
+    font-weight: 500;
+    text-align: center;
+}
+.rightIntroductionParagraph, .leftIntroductionParagraph{    
+    display: flex;
+}
+.rightIntroductionParagraph{
+    width: 40%;
+}
+.leftIntroductionParagraph{
+    width: 40%;
+
+}
+ul{
+    list-style-type: square;
+}
