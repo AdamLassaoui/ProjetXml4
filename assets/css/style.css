@@ -17,17 +17,25 @@
         color: white;
 }
 .pageTitle {
-    color:#dc181c;
-    font-weight: bold;
-    margin: 2em;
-    margin-left: 14em;
+    color: #dc181c;
+    padding: 2%;
+    font-weight: 600;
+    text-align: center;
 }
-/* .form-control {
-    width: 50%;
-} */
-.nameImput {
-    width: 15%;
+.warning {
+    font-size: 2em;
+    color: red;
+    font-weight: 500;
 }
-.emailImput {
-    width: 15%;
+.form {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    padding: 5%;
+}
+textarea{
+    resize: none;
+}
+p > iframe {
+    padding: 3%;
 }
