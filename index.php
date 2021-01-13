@@ -16,7 +16,7 @@ require('controller.php');
         <ul>
             <?php foreach ($xml->page as $page)
             { ?>
-                <li><a href="?id=<?= $page['id']; ?>" target="_self"><?= $page->menu; ?></a></li>
+                <li><a href="<?= $page['id'] ?>.html" target="_self"><?= $page->menu; ?></a></li>
             <?php } ?>
         </ul>
     </nav>
@@ -31,12 +31,12 @@ require('controller.php');
             }
             else
             {
-                echo 'La page recherchée n\'existe pas';
+                $error =  'La page recherchée n\'existe pas';
             }
         }
         else
         {
-            echo 'La page recherchée n\'existe pas';
+            $error =  'La page recherchée n\'existe pas';
         }
     }
     else
@@ -47,11 +47,11 @@ require('controller.php');
         }
         else
         {
-            echo 'La page recherchée n\'existe pas';
+            $error =  'La page recherchée n\'existe pas';
         }
     }
     ?>
-
+    <p><?= $error?></p>
 </body>
 
 </html>
