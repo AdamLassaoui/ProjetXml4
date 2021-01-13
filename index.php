@@ -16,14 +16,42 @@ require 'controller.php'
         <ul>
             <?php foreach ($xml->page as $page)
             { ?>
-                <li><a href="?id=<?= $page['id'] - 1; ?>" target="_self"><?= $page->menu; ?></a></li>
-                <?php } ?>
+                <li><a href="?id=<?= $page['id']; ?>" target="_self"><?= $page->menu; ?></a></li>
+            <?php } ?>
         </ul>
     </nav>
-    <?= $xml->page[(int)$_GET['id']]->content ?>
+    <?php
+    if (!empty($_GET['id']) || isset($_GET['id']))
+    {
+        if (is_numeric($_GET['id']))
+        {
+            if (in_array($_GET['id'], $idControl))
+            {
+                echo $xml->page[$_GET['id'] - 1]->content;
+            }
+            else
+            {
+                echo 'La page recherchée n\'existe pas';
+            }
+        }
+        else
+        {
+            echo 'La page recherchée n\'existe pas';
+        }
+    }
+    else
+    {
+        if (!$_GET)
+        {
+            echo $xml->page[0]->content;
+        }
+        else
+        {
+            echo 'La page recherchée n\'existe pas';
+        }
+    }
+    ?>
+
 </body>
 
 </html>
-
-
-<?php
