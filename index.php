@@ -15,9 +15,9 @@ require('controller.php');
 <body>
     <nav id="navBar">
         <ul>
-            <?php foreach ($xml->page as $page)
-            { ?>
-                <li><a href="<?= $page['id']; ?>.html" target="_self"><?= $page->menu; ?></a></li>
+            <li><?= $xml->page[0]->content->h1['Maçonnerie Ocordo'] ?></li>
+            <?php foreach ($xml->page as $page) { ?>
+                <li><a href="<?= $page['id'] ?>.html" target="_self"><?= $page->menu; ?></a></li>
             <?php } ?>
         </ul>
     </nav>

@@ -1,6 +1,7 @@
 *{
-    box-sizing: border-box;
+    box-sizing:border-box;
 }
+
 #navBar {
     background-color: rgb(121, 113, 113);
     padding: 1em;
@@ -25,6 +26,7 @@
     font-weight: 600;
     text-align: center;
 }
+/*Partie Max*/
 .warning {
     font-size: 2em;
     color: red;
@@ -35,6 +37,21 @@
     grid-template-columns: 1fr;
     justify-items: center;
     padding: 5%;
+}
+.testimonials-list {
+    text-align: center;
+    padding: 5%;
+}
+.testimonials-list > h2 {
+    text-align: ;
+}
+.quoter {
+    width: 100%;
+    background-color: #dc181bab;
+}
+.quote {
+    width: 100%;
+    padding: 3%;
 }
 textarea{
     resize: none;
