@@ -1,21 +1,21 @@
 #navBar {
     background-color: rgb(121, 113, 113);
-    padding: 1em;
     text-align: center;
 }
-#navBar ul {
-    list-style-type: none;
-}
-
 #navBar li {
-    display: inline;
-    padding: 2em;
+    padding: 1em;
 }
 
 #navBar a {
     text-decoration: none;
-        color: white;
+    color: white;
 }
-.pageTitle {
-    color: red;
+#pageTitle {
+    position: absolute;
+    left: -15000px;
 }
+.img:hover {
+    transform: scale(1.05);
+    transition: 0.4s;
+}
+
