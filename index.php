@@ -1,5 +1,5 @@
 <?php
-require 'controller.php'
+require('controller.php');
 ?>
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
