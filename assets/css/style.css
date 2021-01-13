@@ -17,5 +17,17 @@
         color: white;
 }
 .pageTitle {
-    color: red;
+    color:#dc181c;
+    font-weight: bold;
+    margin: 2em;
+    margin-left: 14em;
+}
+/* .form-control {
+    width: 50%;
+} */
+.nameImput {
+    width: 15%;
+}
+.emailImput {
+    width: 15%;
 }
