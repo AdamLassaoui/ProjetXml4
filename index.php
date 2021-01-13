@@ -13,13 +13,19 @@ require('controller.php');
 </head>
 
 <body>
-    <nav id="navBar">
-        <ul>
-            <li><?= $xml->page[0]->content->h1['Maçonnerie Ocordo'] ?></li>
-            <?php foreach ($xml->page as $page) { ?>
-                <li><a href="<?= $page['id'] ?>.html" target="_self"><?= $page->menu; ?></a></li>
-            <?php } ?>
-        </ul>
+    <nav id="navBar" class="navbar navbar-expand-lg mb-5 navbar-dark">
+        <a class="navbar-brand" href="#">Maçonnerie Ocordo</a>
+        <button id="" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <?php foreach ($xml->page as $page)
+                { ?>
+                    <li class="nav-item"><a class="nav-link" href="<?= $page['id']; ?>.html" target="_self"><?= $page->menu; ?></a></li>
+                <?php } ?>
+            </ul>
+        </div>
     </nav>
     <?php
     if (!empty($_GET['id']) || isset($_GET['id'])) {

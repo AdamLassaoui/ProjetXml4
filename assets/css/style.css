@@ -11,26 +11,30 @@ body {
 #navBar {
     background-color: #000000;
     padding: 1em;
-    text-align: center;
-}
-#navBar ul {
-    list-style-type: none;
-}
 
+}
 #navBar li {
-    display: inline;
-    padding: 2em;
+    padding: 1em;
 }
 
 #navBar a {
     text-decoration: none;
-        color: white;
+    color: white;
+}
+#firstPageTitle {
+    position: absolute;
+    left: -15000px;
+}
+.img:hover {
+    transform: scale(1.02);
+    transition: 0.4s;
 }
 .pageTitle {
     color: #000000;
     padding: 2%;
     font-weight: 600;
     text-align: center;
+    text-shadow: 2px 3px 5px rgba(85, 7, 7, 0.6);
 }
 /*Partie Max*/
 .warning {
@@ -78,6 +82,13 @@ p > iframe {
     font-weight: 700;
 }
 /*Partie remi*/
+.contact-information{
+color: red;
+text-shadow: 2px 3px 5px rgba(0,0,0,0.3);
+text-align: center;
+list-style-type:none;
+font-size: 25px;
+}
 h2 {
     color: #797171;
     padding: 2%;
@@ -98,3 +109,4 @@ p {
     margin: 0;
     padding: 0;
 }
+
