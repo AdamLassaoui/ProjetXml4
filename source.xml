@@ -8,12 +8,12 @@
 <p class="text-center mx-5">Nous sommes capables de gérer un projet de rénovation ou d’extension de A à Z grâce à nos entreprises générales de bâtiment partenaires.</p>
 <p class="text-center mx-5">Nous pouvons assurer tous vos travaux de tout corps d’état.</p>
 <h2>Nos dernières réalisations à Nantes</h2>
-<div class="gallery_box_single row justify-content-center m-0">
-    <div class="img col-md-4 text-center p-0 my-1"><img class="imgGal" src="assets/img/Renovation-appartement-nantes-ocordo-travaux-300-225.jpg" alt="Rénovation d'un appartement à Nantes"/><p class="caption-text">Rénovation d'un appartement à Nantes</p></div>
-    <div class="img col-md-4 text-center p-0"><img class="imgGal" src="assets/img/Travaux-de-renovation-à-nantes-300-225.jpg" alt="Aménagement de comble à Nantes"/><p class="caption-text">Aménagement de comble à Nantes</p></div>
-    <div class="img col-md-4 text-center p-0"><img class="imgGal" src="assets/img/entreprise-de-renovation-OCORDO-300-225.jpg" alt="Rénovation d'une maison à Nantes"/><p class="caption-text">Rénovation d'une maison à Nantes</p></div>
-    <div class="img col-md-4 text-center p-0"><img class="imgGal" src="assets/img/renovation-appartement-nantes-300-225.jpg" alt="Travaux de rénovation dans un appartement à Nantes"/><p class="caption-text">Travaux de rénovation dans un appartement à Nantes</p></div>
-    <div class="img col-md-4 text-center p-0"><img class="imgGal" src="assets/img/societe-de-renovation-a-nantes-2.jpg" alt="Rénovation d'un appartement à Nantes"/><p class="caption-text">Rénovation d'un appartement à Nantes</p></div>	
+<div class="gallery_box_single row justify-content-center mx-0">
+    <div class="img col-md-4 text-center p-0 my-4"><img class="imgGal" src="assets/img/Renovation-appartement-nantes-ocordo-travaux-300-225.jpg" alt="Rénovation d'un appartement à Nantes"/><p class="caption-text mt-3">Rénovation d'un appartement à Nantes</p></div>
+    <div class="img col-md-4 text-center p-0 my-4"><img class="imgGal" src="assets/img/Travaux-de-renovation-à-nantes-300-225.jpg" alt="Aménagement de comble à Nantes"/><p class="caption-text mt-3">Aménagement de comble à Nantes</p></div>
+    <div class="img col-md-4 text-center p-0 my-4"><img class="imgGal" src="assets/img/entreprise-de-renovation-OCORDO-300-225.jpg" alt="Rénovation d'une maison à Nantes"/><p class="caption-text mt-3">Rénovation d'une maison à Nantes</p></div>
+    <div class="img col-md-4 text-center p-0 my-4"><img class="imgGal" src="assets/img/renovation-appartement-nantes-300-225.jpg" alt="Travaux de rénovation dans un appartement à Nantes"/><p class="caption-text mt-3">Travaux de rénovation dans un appartement à Nantes</p></div>
+    <div class="img col-md-4 text-center p-0 my-4"><img class="imgGal" src="assets/img/societe-de-renovation-a-nantes-2.jpg" alt="Rénovation d'un appartement à Nantes"/><p class="caption-text mt-3">Rénovation d'un appartement à Nantes</p></div>	
 </div>
 
 
