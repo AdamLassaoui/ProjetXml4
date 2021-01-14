@@ -49,7 +49,9 @@ require('controller.php');
     <div class="container">
         <div class="row ">
             <div class="col-12 text-center">
-                <p class="text-alert warning"><?= $error ?></p>
+                <p class="text-alert warning">
+                <?= $error ?>
+                <img src="assets/img/Sourire-du-plombier-1.jpg" alt="" class="p-5"></p>
             </div>
         </div>
     </div>
