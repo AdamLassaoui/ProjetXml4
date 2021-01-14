@@ -8,26 +8,25 @@ body {
     background: cover;
     color: white;
 }
+/*Partie Jon*/
 #navBar {
     background-color: #000000;
     padding: 1em;
+}
+.navbar-brand {
+    font-size: 2rem;
+}
 
-}
-#navBar li {
-    padding: 1em;
-}
-
-#navBar a {
-    text-decoration: none;
-    color: white;
-}
 #firstPageTitle {
     position: absolute;
     left: -15000px;
 }
-.img:hover {
+.imgGal {
+    box-shadow: 0px 0px 3px 3px #FFFFFF;
+}
+.imgGal:hover {
     transform: scale(1.02);
-    transition: 0.4s;
+    transition: 0.4s ease;
 }
 .pageTitle {
     color: #000000;
