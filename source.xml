@@ -26,7 +26,11 @@
         <content><![CDATA[<h1 class="pageTitle">Qui sommes-nous?</h1>
 <h2>L’AGENCE DE TRAVAUX OCORDO</h2>
 <h3>Présentation de notre entreprise</h3>
+<<<<<<< HEAD
 <p class="text-center para ">Nous sommes un groupement permanent d’entreprises locales du bâtiment spécialisées dans les travaux de rénovation d’appartements et de maisons et de construction d’extensions horizontale ou verticale de maisons.</p><p class="introductionSecondParagraph text-center para">
+=======
+<p class="introductionFirstParagraph text-center bg-secondary col-6">Nous sommes un groupement permanent d’entreprises locales du bâtiment spécialisées dans les travaux de rénovation d’appartements et de maisons et de construction d’extensions horizontale ou verticale de maisons.</p><p class="introductionSecondParagraph text-center bg-secondary col-6">
+>>>>>>> 01010713711ef93e1eb9c761088f7f87d520d1e2
     Nous travaillons exclusivement pour les particuliers.</p>
 <p class="text-center para "><iframe src="https://www.youtube.com/embed/Crh5lFpNK0o?feature=oembed" class="youtubeVideo" allowfullscreen="" width="700" height="481" frameborder="0"></iframe></p>
 <p class="text-center para">Notre groupement est en mesure de vous proposer les compétences métier dans le gros oeuvre et le second oeuvre :</p><p>
