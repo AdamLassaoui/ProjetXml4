@@ -20,8 +20,7 @@ require('controller.php');
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mt-2 ml-auto">
-                <?php foreach ($xml->page as $page)
-                { ?>
+                <?php foreach ($xml->page as $page) { ?>
                     <li class="nav-item"><a class="nav-link" href="<?= $page['id']; ?>.html" target="_self"><?= $page->menu; ?></a></li>
                 <?php } ?>
             </ul>
@@ -46,16 +45,21 @@ require('controller.php');
         }
     }
     ?>
+    <div class="container-fluid footer text-center d-flex align-items-center">
+            <div class="col-12 col-md-4">Mentions légales</div>
+            <div class="col-12 col-md-4"> &copy; <?= $currentDate ?> Les Titans</div>
+            <div class="col-12 col-md-4">Politique de confidentialité</div>
+    </div>
     <div class="container">
         <div class="row ">
             <div class="col-12 text-center">
                 <p class="text-alert warning">
-                <?= $error ?></p>
+                    <?= $error ?></p>
             </div>
         </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 </body>
 
 </html>

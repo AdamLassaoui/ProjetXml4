@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiko:wght@600&family=Felipa&display=swap');
 *{
     box-sizing:border-box;
 }
@@ -5,7 +7,9 @@ body {
     background-color: #dfd4cc;
     background-image: url("../img/screenContact.jpg");
     background-attachment: fixed;
-    background: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     color: white;
 }
 /*Partie Jon*/
@@ -14,7 +18,9 @@ body {
     padding: 1em;
 }
 .navbar-brand {
-    font-size: 2rem;
+    font-size: 1.7em;
+    font-family: 'Cinzel', serif;
+    color: #ffffff;
 }
 
 #firstPageTitle {
@@ -28,13 +34,15 @@ body {
     transform: scale(1.02);
     transition: 0.4s ease;
 }
-.pageTitle {
-    color: #000000;
+.pageTitle{
+    font-family: 'Cinzel', serif;
+    color: #ffffff;
     padding: 2%;
     font-weight: 600;
     text-align: center;
     text-shadow: 2px 3px 5px rgba(85, 7, 7, 0.6);
 }
+
 /*Partie Max*/
 .warning {
     font-size: 2em;
@@ -50,9 +58,7 @@ body {
 .testimonials-list {
     text-align: center;
 }
-.testimonials-list h2 {
-    text-decoration: underline;
-}
+
 .testimonials-list p {
     text-align: center;
 }
@@ -82,30 +88,60 @@ p > iframe {
 }
 /*Partie remi*/
 .contact-information{
-color: red;
+color: white;
 text-shadow: 2px 3px 5px rgba(0,0,0,0.3);
 text-align: center;
 list-style-type:none;
-font-size: 25px;
+font-size: 1.5em;
+text-shadow: 2px 3px 5px rgba(85, 7, 7, 0.6);
 }
 h2 {
-    color: #797171;
+    font-family: 'Cinzel', serif;
+    background-color: #00000091;
+    color: #ffc600;
+    text-shadow: 5px 3px 8px rgba(0, 0, 0, 0.692);
     padding: 2%;
     font-weight: 500;
     text-align: center;
 }
 h3 {
+    font-family: 'Cinzel', serif;
+    color: #ffffff;
+    text-shadow: 2px 3px 5px rgba(85, 7, 7, 0.6);
     padding: 5%;
     font-weight: 500;
     text-align: center;
 }
-
+.para {
+    padding: 2%;
+    font-size: 1.2em;
+    background-color: #00000091;
+}
 ul{
-    list-style-type:circle;
+    list-style-type:none;
     margin: 0;
 }
 p {
+    font-family: 'Amiko', sans-serif;
+    font-size: 1.2em;
     margin: 0;
     padding: 0;
 }
-
+.para li {
+    color: #ffc600;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.map {
+    float: none !important;
+}
+.footer {
+    justify-content: center;
+    background-color: #000000;
+    height: 80px;
+}
+@media screen and (max-width: 400px){
+    .navbar-brand {
+    font-size: 1.3em;
+}
+}

@@ -5,4 +5,5 @@
     foreach($xml->page as $page) {
         $idControl[] = $page['id'];
     }
+    $currentDate = date('Y');
 ?>
